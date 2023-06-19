@@ -55,6 +55,8 @@ docker compose up --build
 
 -> http://localhost:7865
 
+As this is a Gradio app, you can interact with it using the WebSocket API to automate voice cloning.
+
 ## Querying using the Gradio API
 
 Check out the `example` folder to have an insight of a Node.js client infering an audio file using a pre-existing model.
