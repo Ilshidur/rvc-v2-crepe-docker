@@ -1,5 +1,7 @@
 # RVC v2 + crepe
 
+RVC v2 with Crepe, for AI music covers.
+
 ## How to run
 
 ### Using Docker
