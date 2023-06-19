@@ -1,0 +1,29 @@
+{
+  "name": "rvc-v2-crepe-docker-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilshidur/rvc-v2-crepe-docker.git"
+  },
+  "author": "Ilshidur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ilshidur/rvc-v2-crepe-docker/issues"
+  },
+  "homepage": "https://github.com/Ilshidur/rvc-v2-crepe-docker#readme",
+  "dependencies": {
+    "@gradio/client": "^0.1.2",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
