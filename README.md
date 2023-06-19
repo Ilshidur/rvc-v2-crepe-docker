@@ -2,6 +2,8 @@
 
 RVC v2 with Crepe, for AI music covers.
 
+[![dockeri.co](https://dockeri.co/image/ilshidur/rvc-2.0-crepe)](https://hub.docker.com/r/ilshidur/rvc-2.0-crepe)
+
 ## How to run
 
 ### Using Docker
