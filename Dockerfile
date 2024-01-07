@@ -1,9 +1,9 @@
-# This while Docker image is based on ilshidur/rvc-2.0-crepe-base, which is just
-# roughly full build of the Dockerfile located in https://github.com/Mangio621/Mangio-RVC-Fork.
+# This whole Docker image is based on ilshidur/rvc-2.0-crepe-base, which is just
+# roughly a full build of the Dockerfile located in https://github.com/Mangio621/Mangio-RVC-Fork.
 # See : https://hub.docker.com/r/ilshidur/rvc-2.0-crepe-base
 FROM ilshidur/rvc-2.0-crepe-base
 
-# Allow the use to add weights and indexes.
+# Allow the user to add weights and indexes.
 VOLUME /app/logs
 VOLUME /app/weights
 
