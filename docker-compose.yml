@@ -1,0 +1,22 @@
+# docker-compose.yml
+version: '3.3'
+
+services:
+  rvc-2-0-crepe:
+    image: ilshidur/rvc-2.0-crepe
+    container_name: rvc-2-0-crepe
+    volumes:
+      - ./logs:/app/logs
+      - ./weights:/app/weights
+      - ./inputs:/app/inputs
+      - ./outputs:/app/audio-outputs
+      - ./temp-outputs:/app/TEMP/gradio
+    ports:
+      - "7865:7865"
+    deploy: # --gpus all
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
