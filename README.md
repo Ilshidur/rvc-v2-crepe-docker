@@ -55,6 +55,14 @@ Then run :
 docker compose up --build
 ```
 
+## Exposed volumes
+
+* `/app/logs` (Optional) : `.index` files. Recommended to follow the following pattern : `logs/<modelname>/<arbitrary name>.index`.
+* `/app/weights` : the `.pth` files containing the voice models.
+* `/app/inputs` : the input `.wav` files to infer.
+* `/app/audio-outputs` : the final audio outputs.
+* `/app/TEMP/gradio` (Optional) : temporary audio outputs.
+
 ## UI
 
 -> http://localhost:7865
